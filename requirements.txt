@@ -1,0 +1,7 @@
+# Interface de terminal (Windows)
+# O 'curses' é nativo em Linux e macOS, mas no Windows 
+# precisa desta biblioteca de compatibilidade.
+windows-curses>=2.3.1; sys_platform == "win32"
+
+# (Pós-MVP) Dependências para os testes unitários (se forem usar)
+pytest>=7.0.0
