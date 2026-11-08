@@ -1,4 +1,4 @@
-from pilha import PilhaSentinela
+from core.pilha import PilhaSentinela
 
 
 class AcaoInserir:

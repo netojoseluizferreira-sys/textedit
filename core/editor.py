@@ -1,5 +1,5 @@
-from buffer import Buffer
-from history import History, AcaoInserir, AcaoApagar
+from core.buffer import Buffer
+from core.history import History, AcaoInserir, AcaoApagar
 
 
 class EditorCore:
