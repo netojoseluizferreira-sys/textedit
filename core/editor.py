@@ -74,7 +74,6 @@ class EditorCore:
     def obter_posicao_cursor(self):
         return self.buffer.obter_posicao_cursor()
 
-
 # ==============================================================================
 # TESTES DE INTEGRAÇÃO
 # ==============================================================================
